@@ -6,6 +6,7 @@ const FinalCTA: React.FC = () => {
     <section className="py-16 bg-gradient-to-t from-black to-slate-900">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
+          {/* 10. SESSÃO FINAL DE REFORÇO - PARTE 2 */}
           <div className="mb-8">
             <Rocket className="w-16 h-16 text-cyan-400 mx-auto mb-6" />
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">

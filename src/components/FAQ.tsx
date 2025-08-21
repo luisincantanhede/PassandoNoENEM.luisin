@@ -31,6 +31,7 @@ const FAQ: React.FC = () => {
     <section className="py-16 bg-gradient-to-b from-slate-800 to-slate-900">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
+          {/* 10. SESSÃO FINAL DE REFORÇO - PARTE 1 */}
           <h3 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
             Perguntas Frequentes
           </h3>

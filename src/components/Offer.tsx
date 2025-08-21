@@ -12,6 +12,7 @@ const Offer: React.FC = () => {
     <section className="py-16 bg-gradient-to-b from-slate-900 to-slate-800">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
+          {/* 6. OFERTA / O QUE ESTÁ INCLUÍDO */}
           <h3 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
             Oferta Especial
           </h3>
@@ -43,6 +44,7 @@ const Offer: React.FC = () => {
               </div>
             </div>
 
+            {/* 9. ESCASSEZ E URGÊNCIA */}
             <div className="flex items-center justify-center gap-3 bg-red-600/20 border border-red-500/30 rounded-lg px-6 py-3 mb-8">
               <Clock className="w-6 h-6 text-red-400" />
               <p className="text-red-300 font-semibold">
@@ -50,6 +52,7 @@ const Offer: React.FC = () => {
               </p>
             </div>
 
+            {/* 7. CALL TO ACTION (CTA) FORTE */}
             <a 
               href="https://pay.cakto.com.br/9ymp7n8_518446" 
               target="_blank" 
@@ -69,7 +72,7 @@ const Offer: React.FC = () => {
             </a>
           </div>
 
-          {/* Guarantee */}
+          {/* 8. GARANTIA (SEGURANÇA) */}
           <div className="text-center">
             <h4 className="text-2xl font-bold text-white mb-4">Garantia Total</h4>
             <div className="bg-green-600/20 border border-green-500/30 rounded-lg p-6">

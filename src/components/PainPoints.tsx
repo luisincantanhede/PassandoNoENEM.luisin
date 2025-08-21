@@ -13,6 +13,15 @@ const PainPoints: React.FC = () => {
     <section className="py-16 bg-gradient-to-b from-slate-800 to-slate-900">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
+          {/* 2. SUBHEADLINE */}
+          <h2 className="text-xl md:text-2xl mb-4 text-gray-300">
+            Acelere sua aprovação no ENEM — mesmo que esteja começando agora
+          </h2>
+          <p className="text-lg md:text-xl text-cyan-300 mb-12">
+            📚 Estudo inteligente, com foco no que mais cai, sem perder tempo com o que não importa.<br />
+            Não é sobre estudar mais, é sobre estudar certo.
+          </p>
+
           <h3 className="text-3xl md:text-4xl font-bold text-white mb-8">
             Você já passou por isso?
           </h3>
@@ -37,17 +46,6 @@ const PainPoints: React.FC = () => {
             <p className="text-xl text-cyan-300 font-semibold">
               A verdade é: o problema não é você. O problema é o método.
             </p>
-          </div>
-
-          {/* Author Image Placeholder */}
-          <div className="mt-8">
-            <div className="w-32 h-32 mx-auto rounded-full border border-cyan-500/30 overflow-hidden">
-              <img 
-                src="https://images.pexels.com/photos/267582/pexels-photo-267582.jpeg?auto=compress&cs=tinysrgb&w=400" 
-                alt="Júlio Maciel Machado - Especialista em preparação para ENEM"
-                className="w-full h-full object-cover"
-              />
-            </div>
           </div>
         </div>
       </div>

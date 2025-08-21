@@ -45,6 +45,7 @@ const Authority: React.FC = () => {
     <section className="py-16 bg-gradient-to-b from-slate-800 to-slate-900">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
+          {/* 5. PROMESSAS */}
           <h3 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
             Por que confiar?
           </h3>
